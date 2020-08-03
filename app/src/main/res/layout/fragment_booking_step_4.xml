@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorBackground"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginBottom="2dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"/>
+
+    <LinearLayout
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="@drawable/rounded_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:text="Thank you for booking our services !"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:fontFamily="@font/bellerose"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <View
+            android:background="@android:color/background_dark"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:text="Booking information"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:fontFamily="@font/bellerose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="bottom"
+                android:src="@drawable/ic_baseline_event_note_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            
+            <TextView
+                android:id="@+id/txt_booking_time"
+                android:text="10h00 at 01/08/2020"
+                android:layout_marginLeft="4dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/bellerose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:src="@drawable/ic_baseline_account_black_circle_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txt_booking_user"
+                android:text="David"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="4dp"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/bellerose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <View
+            android:background="@android:color/background_dark"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"/>
+
+        <TextView
+            android:id="@+id/txt_salon_name"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:textAllCaps="true"
+            android:text="Salon #1"
+            android:textSize="18sp"
+            android:fontFamily="@font/bellerose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="bottom"
+                android:src="@drawable/website"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txt_salon_website"
+                android:text="https://30Shine.com.vn"
+                android:layout_marginLeft="4dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/bellerose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="bottom"
+                android:src="@drawable/ic_baseline_local_phone_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txt_salon_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:fontFamily="@font/bellerose"
+                android:text="0965795095"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="bottom"
+                android:src="@drawable/ic_baseline_access_time_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txt_salon_time_open"
+                android:text="9h00 - 21h00"
+                android:layout_marginLeft="4dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/bellerose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="bottom"
+                android:src="@drawable/ic_baseline_location_on_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txt_salon_location"
+                android:text="Address of salon #1"
+                android:layout_marginLeft="4dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/bellerose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:text="Confirm"
+            android:id="@+id/btn_confirm"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
